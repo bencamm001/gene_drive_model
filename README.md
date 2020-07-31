@@ -54,24 +54,19 @@ The distribution of mutations is controlled by gamma (line 96)
 
 There are 5 methods to determine the conversion efficiency of the drive: set, normal, beta, bipolar and sequence.
 
-#### Set
-
+**Set**
 The conversion efficiency of the drive is defined by conv_set (line 115) and a drive resistant allele can be set with res (line 116).
 
-#### Normal
-
+**Normal**
 The conversion efficiency for each allele is determined through a normal distribution as defined by the mean, nmean (line 125), the standard deviation, nstd (line 126).
 
-#### Beta
-
+**Beta**
 The conversion efficiency for each allele is determined through a beta distribution as defined by shape 1, shape1 (line 120), and shape 2, shape2 (line 121).
 
-##### Bipolar
-
+**Bipolar**
 The conversion efficiency for each allele is determined through two normal distributions that are sampled at from at a rate defined by a binomial distribution. The frequency that distribution one is sampled from is defined by percent_peak1 (line 105) with the mean and standard deviation for the two normal distribtuions being peak1, se1 and peak2, se2 respectively.
 
-#### Sequence
-
+**Sequence**
 The conversion efficiecny of each allele can be inferred from a gRNA sequence. A gRNA is defined by grna (line 132) and the binding efficiecny of the gRNA can be modulated with priming (line 135). Presently the conversion efficiency is a percent similarity between the gRNA sequence and the allele sequence, however, in future this will be adjusted to reflect the importance of gRNA positional mutations.
 
 
