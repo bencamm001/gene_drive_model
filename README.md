@@ -15,26 +15,39 @@ All changes to runs are made in the testing file, the model file just has all th
 ### Population parameters:
 
 The number of populations modelled is defined by popsi (line 10). The number of populations changes the number of values needed for inbreeding, pressure, exposure, migration rates, starting frequencies.
+
 Number of alleles in the population is defined by indiv (line 10).
+
 Population size is defined by popi (line 10) and the carrying capacity of each population is max_pop (line 20).
+
 The number of generations the simulation runs for is defined by gens (line 17).
+
 The inbreeding coefficient is defined by Fis (line 23) with each element in the array being for each separate population.
+
 The reproductive output of each individual is defined by clutch (line 26).
+
 The starting frequency of the gene drive is defined by starting_freq (line 235).
+
 The starting frequency of the drive resistant allele is defined by res_freq (line 236).
+
 The migration rate between populations is defined by mig_rates (line 268).
 
 
 
 ### Selection parameters
 Pressure (line 46) dictates whether there is any selection pressures in each population.
+
 Exposure (line 50) dictates the extent to which a selection pressure affects a population, e.g. how extensively a herbicide is applied to a region.
+
 The genetic interaction of fitness costs is defined by dominance (line 59) with each element in the array showing the interaction for each fitness cost.
+
 Fitness of individual genotypes can be perturbed by env (line 64) that adds a random environmental effect to fitness.
+
 The fitness of each allele is defined by traits1 (line 69). These values can be determined by inferring from the sequence against an arbitrary most fit sequence, or assigned manually. The first row of values is the baseline fitness from the allele, the second row is the fitness cost of the gene drive and the third row is the fitness cost of resistance to the gene drive.
 
 ### Sequence parameters
 The mutations rate is defined by mu_rate (line 93).
+
 The distribution of mutations is controlled by gamma (line 96)
 
 ### Drive parameters
