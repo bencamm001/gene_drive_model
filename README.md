@@ -15,6 +15,7 @@ The preset parameters in testing_19_polished.jl define a gene drive scenario as 
 Two populations each totalling 1,000,000 individuals with three alleles present; a wild type (WT) allele, a gene drive resistant allele (R) and a gene drive allele (D). The population is fully panmictic and has low levels (10<sup>-4</sup>) of migration between the two populations. Selection pressures are present in both populations with the exposure level in the first population at 0.7 and the second at 0.2. The fitness cost associated with the gene drive is 0.45 and is dominant. The gene drive converts WT alleles at a rate of 0.8 and R alleles at 0.02. The starting frequency of the gene drive in the first population is 0.001 and 0.0 in the second. The R allele starts a frequency of 0.01 in the first population and 0.3 in the second.
 
 Running the model as is should result in the image below.
+
 ![default_run](https://user-images.githubusercontent.com/27834989/89003909-5aa1a000-d344-11ea-80df-a9c6f24b1b0a.png "Default Simulation")
 
 ## How to change parameters
