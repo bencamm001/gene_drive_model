@@ -1,12 +1,10 @@
-Readme V1
+#Readme V1
 
-Requirements
-
+##Requirements
 Julia v1.3.1 or higher
 
 
-Quickrun
-
+##Quickrun
 Run the model_18.jl file in a Julia REPL then run testing_19_polished.jl.
 This will run a gene drive scenario and output a plot showing the frequency of various alleles.
 
