@@ -8,6 +8,8 @@ Julia v1.3.1 or higher
 Run the model_18.jl file in a Julia REPL then run testing_19_polished.jl.
 This will run a gene drive scenario and output a plot showing the frequency of various alleles.
 
+As is the case with julia, the first time running the model in the REPL will take much longer than subsequent runs, especially if packages are missing.
+
 ## Default Parameters
 The preset parameters in testing_19_polished.jl define a gene drive scenario as follows:
 Two populations each totalling 1,000,000 individuals with three alleles present; a wild type (WT) allele, a gene drive resistant allele (R) and a gene drive allele (D). The population is fully panmictic and has low levels (10<sup>-4</sup>) of migration between the two populations. Selection pressures are present in both populations with the exposure level in the first population at 0.7 and the second at 0.2. The fitness cost associated with the gene drive is 0.45 and is dominant. The gene drive converts WT alleles at a rate of 0.8 and R alleles at 0.02. The starting frequency of the gene drive in the first population is 0.001 and 0.0 in the second. The R allele starts a frequency of 0.01 in the first population and 0.3 in the second.
