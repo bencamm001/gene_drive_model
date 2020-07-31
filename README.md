@@ -18,6 +18,8 @@ Running the model as is should result in the image below.
 
 ![default_run](https://user-images.githubusercontent.com/27834989/89003909-5aa1a000-d344-11ea-80df-a9c6f24b1b0a.png "Default Simulation")
 
+The solid blue line represents the frequency of the gene drive allele, the red dashed line represents the frequency of the drive resistant allele and the green dashed line represents the freqeuncy of the wild type allele. With these parameters, the gene drive is able to fixate in the target population but not the neighbouring population.
+
 ## How to change parameters
 All changes to runs are made in the testing file, the model file just has all the necessary functions.
 
