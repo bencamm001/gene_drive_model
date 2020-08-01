@@ -5,17 +5,17 @@ try
 	using Pkg, StatsBase, Compat, Random, Distributions, Plots, LinearAlgebra
 	using Combinatorics, Random, LinearAlgebra, Base.Iterators, SHA
 	using JLD2, CSV, RData, RCall, DataFrames, StatsPlots, Distributed, FastaIO
-	using Measurements, LightXML, Statistics
+	using Measurements, LightXML, Statistics, PyPlot
 catch
 	using Pkg
 	#add packages that are needed
 	Pkg.add.(["RCall", "RData", "StatsBase", "Compat", "Random", "Distributions", "Plots", "LinearAlgebra"])
 	Pkg.add.(["Random", "DataFrames", "CSV", "Combinatorics", "SHA", "JLD2", "StatsPlots", "Distributed", "FastaIO"])
-	Pkg.add.(["Measurements", "LightXML", "Statistics"])
+	Pkg.add.(["Measurements", "LightXML", "Statistics", "PyPlot"])
 	using Pkg, StatsBase, Compat, Random, Distributions, Plots, LinearAlgebra
 	using Combinatorics, Random, LinearAlgebra, Base.Iterators, SHA
 	using JLD2, CSV, RData, RCall, DataFrames, StatsPlots, Distributed, FastaIO
-	using Measurements, LightXML, Statistics
+	using Measurements, LightXML, Statistics, PyPlot
 
 end
 
