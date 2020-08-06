@@ -27,7 +27,7 @@ All changes to runs are made in the testing file, the model file just has all th
 
 The number of populations modelled is defined by *popsi* (line 10). The number of populations changes the number of values needed for inbreeding, pressure, exposure, migration rates, starting frequencies.
 
-Number of alleles in the population is defined by *indiv* (line 10).
+Number of alleles in the population is defined by `indiv` (line 10).
 
 Population size is defined by *popi* (line 10) and the carrying capacity of each population is *max_pop* (line 20).
 
